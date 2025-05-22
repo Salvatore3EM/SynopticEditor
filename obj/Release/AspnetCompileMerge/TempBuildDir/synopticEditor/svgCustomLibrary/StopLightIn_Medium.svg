@@ -1,0 +1,4 @@
+﻿<svg width="97" height="97" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" type_name="StopLightIn" preserveAspectRatio="xMidYMid meet">
+	<ellipse cx="48.4" cy="48.2" fill="#ffffff" rx="43" ry="43" stroke="#000000" stroke-width="3"/>
+	<ellipse class="status" cx="48.49" cy="48.24" rx="37.44" ry="37.49"/>
+</svg>

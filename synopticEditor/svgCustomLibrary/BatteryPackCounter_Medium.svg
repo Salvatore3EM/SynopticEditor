@@ -1,0 +1,5 @@
+﻿<svg type_name="BatteryPackCounter" width="70" height="65" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<rect stroke="#ffffff" fill="#d19257" stroke-linecap="null" stroke-linejoin="null" x="0.52683" y="2.25115" width="69.22293" height="61.73861" rx="14" ry="14"/>
+	<rect stroke="#cccccc" fill="#ffffff" stroke-linecap="null" stroke-linejoin="null" x="5.15021" y="7.22928" width="59.97618" height="51.61099" rx="9" ry="9" class="status"/>
+	<text transform="matrix(1 0 0 1.00933 0 -0.554963)" stroke="#000000" font-family="Segoe UI" font-size="40" font-weight="bold" fill="#000000" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="35.1383" y="49.59104" xml:space="preserve" class="value">-</text>
+</svg>

@@ -1,0 +1,5 @@
+﻿<svg type_name="StatusSetPoint" width="102" height="102" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <path class="status" d="m20.61692,3.80726l-7.15414,9.41891l0,85.84831l64.2508,0.21805l8.10933,-9.63716l0,-85.8481l-65.20599,0l0,0zm57.48653,9.26492l0,86.23308m0,-86.23308l8.10933,-9.44458m-8.10933,9.85521l-64.56269,-0.41063" fill="#000000" stroke="white" transform="matrix(1 0 0 1 0 0)"/>
+  <rect fill="#ffffff" height="16" stroke="white" width="36" x="27.5" y="34.27273"/>
+  <ellipse cx="45.5" cy="70.27273" fill="#ffffff" rx="13" ry="8" stroke="white"/>
+</svg>

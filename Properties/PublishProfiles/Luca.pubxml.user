@@ -1,0 +1,991 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Web.Compiled\MOM\4.7.2\MOM.SynopticEditor</_PublishTargetUrl>
+    <History>True|2024-05-14T07:23:57.8302278Z;True|2024-04-02T15:46:32.7721560+02:00;True|2024-04-02T12:11:56.7693714+02:00;True|2023-10-18T08:46:04.1298205+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>05/14/2024 09:23:56</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>05/14/2024 09:23:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 13:48:56</publishTime>
+    </File>
+    <File Include="bin/MOM.SynopticEditor.dll">
+      <publishTime>04/24/2024 12:00:46</publishTime>
+    </File>
+    <File Include="bin/MOM.SynopticEditor.pdb">
+      <publishTime>04/24/2024 12:00:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 22:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 22:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 22:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 22:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 22:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 22:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 22:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 22:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 22:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 22:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 22:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 22:19:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 05:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 05:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 05:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 05:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 05:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 05:04:30</publishTime>
+    </File>
+    <File Include="browser-not-supported.html">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="browser.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="canvg/canvg.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="canvg/rgbcolor.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="config-sample.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="config.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="contextmenu.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="contextmenu/jquery.contextMenu.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="coords.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="draw.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="embedapi-dom.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="embedapi.html">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="embedapi.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/allowedMimeTypes.php">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/closepath_icons.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-arrows.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-closepath.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-connector.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-eyedropper.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-foreignobject.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-grid.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-helloworld.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-imagelib.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-imagelib.xml">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-markers.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-mathjax.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-overview_window.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-panning.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-panning.xml">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-php_savefile.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-polygon.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-server_moinsave.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-server_opensave.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-shapes.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-shapes.xml">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-star.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-storage.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-webappfind.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/ext-xdomain-messaging.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/eyedropper-icon.xml">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/eyedropper.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/fileopen.php">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/filesave.php">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/foreignobject-icons.xml">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/grid-icon.xml">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/helloworld-icon.xml">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/imagelib/index.html">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/imagelib/smiley.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/markers-icons.xml">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/mathjax-icons.xml">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/polygon-icons.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/savefile.php">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/animal.json">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/arrow.json">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/dialog_balloon.json">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/electronics.json">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/flowchart.json">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/game.json">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/math.json">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/misc.json">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/music.json">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/object.json">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/raphael.txt">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/raphael_1.json">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/raphael_2.json">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/shapelib/symbol.json">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/star-icons.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="extensions/webappfind-icon.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="history.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/align-bottom.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/align-bottom.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/align-center.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/align-center.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/align-left.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/align-left.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/align-middle.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/align-middle.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/align-right.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/align-right.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/align-top.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/align-top.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/bold.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/cancel.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/circle.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/clear.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/clone.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/conn.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/copy.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/cut.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/delete.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/document-properties.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/dropdown.gif">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/ellipse.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/eye.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/fhpath.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/flyouth.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/flyup.gif">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/freehand-circle.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/freehand-square.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/go-down.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/go-up.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/image.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/italic.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/line.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/link_controls.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/loader.gif">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/logo.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/move_bottom.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/move_top.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/node_clone.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/node_delete.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/none.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/open.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/paste.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/path.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/polygon.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/polygon.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/properties.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/README.txt">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/rect.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/redo.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/reorient.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/rotate.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/save.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/saveAs.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/select.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/select_node.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/sep.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/shape_group_elements.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/shape_ungroup.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/source.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/spinbtn_updn_big.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/square.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/svg_edit_icons.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/svg_edit_icons.svgz">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/text.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/text.svg">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/to_path.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/undo.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/view-refresh.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/wave.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/wireframe.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="images/zoom.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/css/jgraduate.css">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/css/jPicker.css">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/images/AlphaBar.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/images/bar-opacity.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/images/Bars.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/images/map-opacity.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/images/mappoint.gif">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/images/mappoint_c.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/images/mappoint_f.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/images/Maps.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/images/NoColor.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/images/picker.gif">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/images/preview-opacity.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/images/rangearrows.gif">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/images/rangearrows2.gif">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/jpicker.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/jpicker.min.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/jquery.jgraduate.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/jquery.jgraduate.min.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/LICENSE">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jgraduate/README">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jquery-1.11.1.min.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jquery-svg.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jquery-ui/jquery-ui-1.8.17.custom.min.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jquery-ui/jquery-ui-1.8.custom.min.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jquery.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jquerybbq/jquery.bbq.min.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="js-hotkeys/jquery.hotkeys.min.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="js-hotkeys/README.md">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jspdf/jspdf.min.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jspdf/jspdf.plugin.svgToPdf.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="jspdf/underscore-min.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.af.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.ar.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.az.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.be.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.bg.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.ca.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.cs.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.cy.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.da.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.de.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.el.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.en.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.es.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.et.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.fa.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.fi.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.fr.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.fy.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.ga.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.gl.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.he.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.hi.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.hr.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.hu.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.hy.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.id.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.is.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.it.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.ja.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.ko.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.lt.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.lv.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.mk.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.ms.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.mt.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.nl.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.no.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.pl.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.pt-BR.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.pt-PT.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.ro.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.ru.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.sk.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.sl.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.sq.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.sr.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.sv.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.sw.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.test.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.th.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.tl.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.tr.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.uk.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.vi.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.yi.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.zh-CN.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.zh-HK.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/lang.zh-TW.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/locale.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="locale/README.txt">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="math.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="path.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="pathseg.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>05/14/2024 09:23:54</publishTime>
+    </File>
+    <File Include="recalculate.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="sanitize.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="scripts/ai.0.15.0-build58334.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="scripts/ai.0.15.0-build58334.min.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="select.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="spinbtn/JQuerySpinBtn.css">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="spinbtn/JQuerySpinBtn.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="spinbtn/JQuerySpinBtn.min.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="spinbtn/spinbtn_updn.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="svg-editor.css">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="svg-editor.html">
+      <publishTime>04/10/2024 15:23:26</publishTime>
+    </File>
+    <File Include="svg-editor.js">
+      <publishTime>04/10/2024 15:23:26</publishTime>
+    </File>
+    <File Include="svg-editor.manifest">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="svgcanvas.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="svgedit.compiled.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="svgedit.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="svgicons/jquery.svgicons.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="svgtransformlist.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="svgutils.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="synopticEditor/scripts/jsTree/jstree.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="synopticEditor/scripts/jsTree/jstree.min.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="synopticEditor/scripts/synoptic.editor.global.js">
+      <publishTime>03/07/2023 13:23:17</publishTime>
+    </File>
+    <File Include="synopticEditor/scripts/synoptic.editor.helper.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="synopticEditor/scripts/synoptic.editor.main.js">
+      <publishTime>04/10/2024 15:23:26</publishTime>
+    </File>
+    <File Include="synopticEditor/style/jsTree/32px.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="synopticEditor/style/jsTree/40px.png">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="synopticEditor/style/jsTree/style.css">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="synopticEditor/style/jsTree/style.min.css">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="synopticEditor/style/jsTree/throbber.gif">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="synopticEditor/style/site.css">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/Accumulator_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/BatteryPackLine_Medium.svg">
+      <publishTime>04/10/2024 15:23:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/BatteryPack_Medium.svg">
+      <publishTime>04/10/2024 15:23:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/Info_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/Line_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/SequenceAlarm_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/Station_Medium.svg">
+      <publishTime>04/10/2024 15:23:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusCameraServiceConnector_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusCamera_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusCapStationServiceConnector_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusCapStation_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusCpStation_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusDashboard_Medium.svg">
+      <publishTime>03/14/2023 09:17:42</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusExtemporary_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusListServiceConnector_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusList_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusPickToLight_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusR_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusSeats_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusSetPoint_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusSniffer_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusSupportConnector_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusTanksBumper_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StatusThread_Medium.svg">
+      <publishTime>03/14/2023 08:37:26</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StopLightIn_Medium.svg">
+      <publishTime>04/17/2024 16:10:33</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StopLightOut_Medium.svg">
+      <publishTime>04/17/2024 16:10:46</publishTime>
+    </File>
+    <File Include="synopticEditor/svgCustomLibrary/StopLight_Medium.svg">
+      <publishTime>04/02/2024 12:10:53</publishTime>
+    </File>
+    <File Include="touch.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="units.js">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>02/28/2023 10:47:49</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/14/2024 09:23:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,189 @@
+/* LENGTH LABEL ID OBJ */
+.idLabelLarge {
+    width: 32% !important;
+}
+
+.idInputLarge {
+    width: 80% !important;
+}
+
+/* MESSAGGE AREA IN DIALOG */
+#dialoxBox-message {
+    margin: 5px auto;
+    border-radius: 5px;
+    width: 93%;
+    height: 20px;
+    background-color: #202020;
+    color: white;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+/* POPUP CLEAR */
+.dialogContent-clear {
+    height: 75px !important;
+}
+
+    .dialogContent-clear div {
+        margin: 10px auto;
+        width: 75%;
+    }
+
+/* POPUP SAVE */
+.dialogBox-saveSize {
+    width: 350px !important;
+}
+
+.dialogContent-save {
+    height: 75px !important;
+}
+
+    .dialogContent-save div {
+        margin: 25px auto !important;
+        width: 75%;
+    }
+
+    .dialogContent-save input {
+        width: 100%;
+    }
+
+
+/* POPUP LOAD */
+.dialogContent-load {
+    height: 75px !important;
+}
+
+    .dialogContent-load div {
+        margin: 25px auto !important;
+        width: 75%;
+    }
+
+    .dialogContent-load select {
+        margin-top: 0;
+        width: 100%;
+    }
+
+/* POPUP AREA SELECTION */
+.dialogContent-areaSelection {
+    height: 75px !important;
+}
+
+    .dialogContent-areaSelection div {
+        margin: 25px auto !important;
+        width: 75%;
+    }
+
+    .dialogContent-areaSelection select {
+        margin-top: 0;
+        width: 100%;
+    }
+
+/* POPUP PROPERTIES */
+.dialogBox-plantSize {
+    width: 650px !important;
+    height: 500px !important;
+}
+
+.dialogBox-multiple-plantSize {
+    width: 800px !important;
+    height: 500px !important;
+}
+
+.dialogBox-plantSize-transitStation {
+    width: 400px !important;
+    height: 500px !important;
+}
+
+.dialogContent-plantSize,
+.dialogContent-plantSize-transitStation {
+    margin: 5px 10px !important;
+    height: 430px !important;
+}
+
+.dialogContent-multiple-plantSize {
+    margin: 5px 10px !important;
+    height: 310px !important;
+}
+
+.dialogContent-plantSize-station,
+.dialogContent-plantSize-lineProgressBar {
+    margin: 5px 10px !important;
+    height: 400px !important;
+}
+
+.dialogContent-separator {
+    background-color: #bbb;
+    height: 310px;
+}
+
+#svg_editor #tools_top {
+    left: 100px !important;
+}
+
+/*Multiple station insertion option*/
+#stationOptions {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    #stationOptions li {
+        float: left;
+        width: 25%;
+    }
+
+        #stationOptions li:nth-child(1), #stationOptions li:nth-child(3) {
+            text-align: right;
+            line-height: 2em;
+        }
+
+#stationPlacing, #stationSorting {
+    width: 60%;
+    float: left;
+}
+
+/*LineProgressBar option*/
+#lineProgressBarOptions {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    #lineProgressBarOptions li {
+        float: left;
+        width: 16.65%;
+        line-height: 2em;
+    }
+
+        #lineProgressBarOptions li:nth-child(1),
+        #lineProgressBarOptions li:nth-child(3),
+        #lineProgressBarOptions li:nth-child(5) {
+            text-align: right;
+        }
+
+#linepbPlacing, #linepbSorting {
+    width: 100%;
+}
+
+#stationNumber {
+    width: 50%;
+    float: left;
+    margin-top: 3px;
+    text-align: center;
+}
+
+/*loader*/
+#loader {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    #loader li {
+        float: left;
+        width: 10%;
+    }
+
+        #loader li:first-child, #loader li:last-child {
+            width: 44.5%;
+        }

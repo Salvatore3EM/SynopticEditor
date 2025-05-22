@@ -1,0 +1,14 @@
+﻿<svg type_name="OT" class="ot" width="112" height="68" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+	<rect otId="0" stroke-width="0" fill="#cccccc" stroke-linecap="null" stroke-linejoin="null" x="0.15013" y="0.10578" width="111.74806" height="67.75128" rx="1" ry="1" stroke="#000000" />
+	<rect stroke="#000000" fill="#3f3f3f" stroke-linecap="null" stroke-linejoin="null" x="5.02822" y="2.71837" width="102.8515" height="5.22307" />
+	<rect fill="#ffffff" stroke-linecap="null" stroke-linejoin="null" x="57.28654" y="32.02984" width="50.93601" height="16.7299" stroke="#000000"/>
+	<rect fill="#ff7f00" stroke-linecap="null" stroke-linejoin="null" x="5.16299" y="54.52213" width="49.96302" height="8" stroke="#000000"/>
+	<rect fill="#ff0000" stroke-linecap="null" stroke-linejoin="null" x="57.28653" y="54.52213" width="50.5272" height="8" stroke="#000000"/>
+	<rect fill="#ffffff" stroke-linecap="null" stroke-linejoin="null" x="5.16299" y="12.5786" width="49.56158" height="36.93725" stroke="#000000"/>
+	<rect fill="#ffffff" stroke-linecap="null" stroke-linejoin="null" x="57.28654" y="12.71337" width="50.38349" height="16.85598" stroke="#000000"/>
+	<rect stroke="#000000" fill="#ffff00" stroke-linecap="null" stroke-linejoin="null" x="7.45409" y="18.94266" width="14.51832" height="11.36927" />
+	<path d="m7.45409,14.84774l45.30441,0l0,1.71903l-45.30441,0l0,-1.71903z" opacity="undefined" stroke-linecap="null" stroke-linejoin="null" stroke="#000000" fill="#56aaff"/>
+	<rect stroke="#000000" fill="#56aaff" stroke-linecap="null" stroke-linejoin="null" x="60.28421" y="33.44609" width="45.3044" height="1.71903" />
+	<ellipse ry="1.28032" rx="1.28032" cy="5.36652" cx="8.27215" fill="#7fff00"/>
+	<path d="m134.70308,32.77115l0.56913,0l0.17587,-0.54067l0.17587,0.54067l0.56913,0l-0.46044,0.33415l0.17588,0.54067l-0.46044,-0.33416l-0.46044,0.33416l0.17588,-0.54067l-0.46044,-0.33415z" stroke-width="0" stroke="#000000" fill="#000000"/>
+</svg>

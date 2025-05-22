@@ -1,0 +1,8 @@
+﻿<svg type_name="StatusListSC" width="55" height="55" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <rect rx="2" stroke="#000000" height="1.60771" width="34.40504" y="52.1139" x="10.29748" fill="#ffffff"/>
+  <rect transform="rotate(90 27.5 47.2908)" rx="2" stroke="#000000" height="5.627" width="9.00319" y="44.47726" x="22.99841" fill="#ffffff"/>
+  <rect fill="#ffffff" x="1.93738" y="1.63174" width="51.12525" height="41.3182" rx="2" stroke="#000000" stroke-width="2"/>
+  <rect wsUri="-1" stroke="#000000" fill="#000000" x="4.53813" y="3.99917" width="45.92375" height="36.58333" rx="2" class="status"/>
+  <path stroke-width="1" d="m18.79178,28.2481l4.91144,-4.00637l-4.91144,-4.0064l2.80714,-2.28961l7.71918,6.29601l-7.71918,6.29797" stroke="#000000" fill="none"/>
+  <path transform="rotate(180 32.1376 18.7916)" stroke-width="1" d="m26.87448,22.79697l4.91144,-4.00637l-4.91144,-4.0064l2.80714,-2.28962l7.71918,6.29602l-7.71918,6.29797" stroke="#000000" fill="none"/>
+</svg>

@@ -1,0 +1,22 @@
+﻿<svg type_name="Andon" class="andon" width="112" height="68" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+	<rect andonId="0" stroke-width="0" fill="#3f3f3f" stroke-linecap="null" stroke-linejoin="null" x="2.46972" y="3.19856" width="111.74806" height="67.75128" rx="1" ry="1" stroke="#000000"/>
+	<rect stroke="#000000" fill="#3f3f3f" stroke-linecap="null" stroke-linejoin="null" x="7.1304" y="8.55087" width="102.71673" height="16.7299"/>
+	<rect stroke="#000000" fill="#00ff00" stroke-linecap="null" stroke-linejoin="null" x="7.14357" y="28.41031" width="102.71673" height="16.7299"/>
+	<rect stroke="#000000" fill="none" stroke-linecap="null" stroke-linejoin="null" x="7.08769" y="8.59598" width="16" height="16.7299"/>
+	<rect stroke="#000000" fill="#7fff00" stroke-linecap="null" stroke-linejoin="null" x="22.92186" y="8.59598" width="16" height="16.7299"/>
+	<rect stroke="#000000" fill="#ff0000" stroke-linecap="null" stroke-linejoin="null" x="78.36513" y="8.59598" width="16" height="16.7299"/>
+	<rect stroke="#000000" fill="#3f3f3f" stroke-linecap="null" stroke-linejoin="null" x="94.1993" y="8.59598" width="16" height="16.7299"/>
+	<rect stroke="#000000" fill="#7fff00" stroke-linecap="null" stroke-linejoin="null" x="7.07162" y="48.28573" width="17.42383" height="8"/>
+	<rect stroke="#000000" fill="#7fff00" stroke-linecap="null" stroke-linejoin="null" x="24.31866" y="48.28574" width="16" height="8"/>
+	<rect stroke="#000000" fill="#ff0000" stroke-linecap="null" stroke-linejoin="null" x="92.58674" y="48.28574" width="17.42383" height="8"/>
+	<rect fill="#007fff" stroke-linecap="null" stroke-linejoin="null" x="7.14357" y="28.41031" width="102.71673" height="4.61624" stroke="#000000"/>
+	<rect stroke="#000000" fill="#3f3f3f" stroke-linecap="null" stroke-linejoin="null" x="7.43773" y="33.20338" width="16" height="11.92448"/>
+	<rect stroke="#000000" fill="#7fff00" stroke-linecap="null" stroke-linejoin="null" x="57.28391" y="48.28574" width="16.9761" height="8"/>
+	<rect stroke="#000000" fill="#ffff00" stroke-linecap="null" stroke-linejoin="null" x="40.71556" y="48.28573" width="16" height="8"/>
+	<rect stroke="#000000" fill="#3f3f3f" stroke-linecap="null" stroke-linejoin="null" x="93.98803" y="33.13693" width="16" height="11.92448"/>
+	<rect stroke="#000000" fill="#7fff00" stroke-linecap="null" stroke-linejoin="null" x="74.71819" y="48.28573" width="16.9761" height="8"/>
+	<rect stroke="#000000" fill="#3f3f3f" stroke-linecap="null" stroke-linejoin="null" x="40.87134" y="56.54908" width="33.22498" height="8"/>
+	<rect stroke="#000000" fill="#3f3f3f" stroke-linecap="null" stroke-linejoin="null" x="74.8059" y="56.52533" width="35.1021" height="8"/>
+	<rect stroke="#000000" fill="none" stroke-linecap="null" stroke-linejoin="null" x="7.05493" y="56.53915" width="33.44189" height="8"/>
+	<rect fill="#cccccc" stroke-linecap="null" stroke-linejoin="null" x="51.15391" y="67.23645" width="11.23905" height="1.31619" rx="1" ry="1" stroke-width="0" stroke="#cccccc"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="50" height="70" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" type_name="Cella">//sal
+ <g>
+  <title>Layer 1</title>
+  <rect ry="5" rx="5" id="obj_1" x="0" y="0" type_custom="0" height="70" width="50" fill="#e5e5e5" stroke="#232323"/>
+
+  <text id="obj_2" type_custom="0" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" y="20" x="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000" class="op-nprog">-----</text>
+
+  <text id="obj_3" type_custom="0" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" y="40" x="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000" class="op-nseq">-----</text>
+
+  <text id="obj_4" type_custom="0" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" y="60" x="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000" class="op-model">-----</text>
+  
+ </g>
+ </svg>

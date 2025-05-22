@@ -1,0 +1,5 @@
+﻿<svg type_name="StatusSeats"  width="55" height="55" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <ellipse ry="23.5" rx="23" cy="28.05" cx="28" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="#000000" fill="#ffffff"/>
+  <ellipse stroke="#000000" ry="18.54546" rx="18" cy="28.00454" cx="28" stroke-width="NaN" fill="#fcfcfc" />
+  <ellipse wsUri="-1" class="status" stroke="#fcfcfc" ry="18.10576" rx="17.5603" cy="27.8161" cx="28.06281" stroke-width="NaN" fill="#000000" />
+</svg>

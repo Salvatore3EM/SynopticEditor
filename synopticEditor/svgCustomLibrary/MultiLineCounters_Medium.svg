@@ -1,0 +1,22 @@
+<svg type_name="multiLineCounters"  width="195" height="215" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <g type_name="lineCounter" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
+    <rect ry="14" rx="14" height="145" width="195" y="69.596" x="0" stroke-linejoin="null" stroke-linecap="null" stroke="#ffffff" fill="#cccccc"/>
+    <line y2="141.33" x2="194.053" y1="141.33" x1="0.422" stroke-linejoin="null" stroke-linecap="null" stroke="#ffffff" fill="none"/>
+    <line y2="214.768" x2="91.553" y1="141.064" x1="91.553" stroke-linejoin="null" stroke-linecap="null" stroke="#ffffff" fill="none"/>
+    <text xml:space="preserve" y="190.3653" x="45.7307" text-anchor="middle" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" stroke="#000000" fill="#191919" font-weight="bold" font-size="36" font-family="Segoe UI" class="theoretical">-</text>
+    <text xml:space="preserve" y="191.0442" x="144.0382" text-anchor="middle" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" stroke="#000000" fill="#191919" font-weight="bold" font-size="36" font-family="Segoe UI" class="target">-</text>
+    <rect ry="9" rx="9" height="62.5" width="180" y="74.2127" x="7.20775" stroke-linejoin="null" stroke-linecap="null" stroke="#cccccc" fill="#f9f7f7"/>
+    <text xml:space="preserve" y="126.739" x="96.9249" text-anchor="middle" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" stroke="#000000" fill="#000000" font-weight="bold" font-size="60" font-family="Segoe UI" class="value">-</text>
+  </g>
+  <g>
+    <g type_name="lineCounter" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
+      <rect ry="14" rx="14" height="70" width="195" y="0" x="0" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" stroke="#ffffff" fill="#7f7f7f"/>
+      <rect ry="9" rx="9" height="55" width="100" y="6.25" x="74" stroke-linejoin="null" stroke-linecap="null" stroke="#cccccc" fill="#f9f7f7"/>
+      <text xml:space="preserve" y="51.441" x="124.4249" text-anchor="middle" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" stroke="#000000" fill="#000000" font-weight="bold" font-size="48" font-family="Segoe UI" class="value">-</text>
+    </g>
+    <g type_name="LineStatus" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
+      <circle r="27.4511" cy="34.7" cx="37.052" stroke="#000000" fill="#ffffff"/>
+      <circle plcStatusId="-1" r="23.1511" cy="34.7" cx="37.052" stroke-width="1.5" stroke="#000000" fill="#000000" class="status"/>
+    </g>
+  </g>
+</svg>

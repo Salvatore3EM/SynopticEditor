@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOM.SynopticEditor", "MOM.SynopticEditor.csproj", "{CDDDFD4C-80AA-222E-0019-BD646308B040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDDDFD4C-80AA-222E-0019-BD646308B040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDDFD4C-80AA-222E-0019-BD646308B040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDDFD4C-80AA-222E-0019-BD646308B040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDDFD4C-80AA-222E-0019-BD646308B040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {241E19C3-42D8-4A46-A7C8-1861674F6C5E}
+	EndGlobalSection
+EndGlobal

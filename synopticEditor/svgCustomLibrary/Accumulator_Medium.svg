@@ -1,0 +1,11 @@
+﻿<svg type_name="Accumulator" width="242" height="145" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <rect class="BackgroundColor" fill="#ffffff" stroke="#5c88d5" x="110.248" y="0.93177" width="129.215" height="142.207" rx="4" ry="4"/>
+  <path fill="#e5e5e5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="m0.59268,72.08698l34.08287,-71.19379l90.89233,0l34.08254,71.19379l-34.08254,71.19501l-90.89233,0l-34.08287,-71.19501z"/>
+  <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" x1="12.3593" y1="48.2926" x2="147.262" y2="48.2926"/>
+  <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" x1="12.4979" y1="96.2325" x2="147.399" y2="96.2325"/>
+  <path fill="#00ff00" stroke="#191919" d="m51.25434,121.28442l-10.53598,10.96712l-10.53643,-10.96712l5.26821,0l0,-11.01999l10.53613,0l0,11.01999l5.26807,0l0,0z"/>
+  <text class="accumulo" font-family="Segoe UI" font-size="60" font-weight="bold" fill="#000000" stroke="#5c88d5" stroke-width="0" text-anchor="middle" x="195.7635" y="85.024" xml:space="preserve">-</text>
+  <text class="maxThreshold" font-family="Segoe UI" font-size="24" font-weight="bold" fill="#000000" stroke="#5c88d5" stroke-width="0" text-anchor="middle" x="91.6661" y="31.9058" xml:space="preserve">-</text>
+  <text class="minThreshold" font-family="Segoe UI" font-size="24" font-weight="bold" fill="#000000" stroke="#5c88d5" stroke-width="0" text-anchor="middle" x="91.6661" y="128.9056" xml:space="preserve">-</text>
+  <path fill="#ff0000" stroke="#191919" d="m30.18118,22.94626l10.53539,-10.9671l10.53658,10.9671l-5.26777,0l0,11.01936l-10.53613,0l0,-11.01936l-5.26807,0l0,0z"/>
+</svg>

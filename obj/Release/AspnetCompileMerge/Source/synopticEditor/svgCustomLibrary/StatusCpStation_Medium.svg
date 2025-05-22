@@ -1,0 +1,4 @@
+﻿<svg type_name="StatusCpStation"  width="55" height="55" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <path stroke="#000000" d="m2.83415,27.57305l24.1379,-26.79042l24.1379,26.79042l-24.1379,26.79042l-24.1379,-26.79042z" stroke-opacity="null" stroke-width="null" fill="#ffffff"/>
+  <path wsUri="-1" class="status" stroke="#000000" d="m8.84606,27.52177l18.08134,-20.99909l18.08134,20.99909l-18.08134,20.99909l-18.08134,-20.99909z" stroke-opacity="null" stroke-width="null" fill="#000000"/>
+</svg>
