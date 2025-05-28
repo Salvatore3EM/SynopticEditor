@@ -1074,15 +1074,15 @@ function dialogSynopticObjectProperties() {
         'data-plantLevel="' + node.Level + '" ' +
         'data-equipmentId="' + getEquipmentId(node, synopticObjTypeName) + '"';
 
-      if (node.EquipmentPath) {
-        html += ' data-equipmentPath="' + node.EquipmentPath + '"';
+      if (node.Codice) {
+        html += ' data-equipmentPath="' + node.Codice + '"';
       }
 
-      if (node.EquipmentPathDescription) {
-        html += ' data-description="' + node.EquipmentPathDescription + '"';
+      if (node.Table) {
+        html += ' data-description="' + node.Table + '"';
       }
 
-      html += '>' + node.EquipmentDescription;
+      html += '>' + node.Descrizione;
 
       if (node.Children && node.Children.length > 0) {
         html += "<ul>";
@@ -1099,10 +1099,10 @@ function dialogSynopticObjectProperties() {
     function getEquipmentId(node, synopticObjTypeName) {
       switch (node.Level) {
         case 3:
-          return node.ObjectTypeId + "x" + node.EquipmentId;
+          return node.ObjectId + "x" + node.EquipmentId;
         case 4:
           if (synopticObjTypeName !== "StatusExtemporaryOP") {
-            return node.ObjectTypeId + "x" + node.EquipmentId;
+            return node.ObjectId + "x" + node.EquipmentId;
           }
           break;
         case 5:
