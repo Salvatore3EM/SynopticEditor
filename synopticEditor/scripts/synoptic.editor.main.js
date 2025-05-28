@@ -208,7 +208,7 @@ function dialogAreaSelection() {
 
     getPlantTree(null, function (data) {
       if (data.ErrorList.length == 0) {
-        areaList = data.EquipmentList[0].Children;
+        areaList = data.EquipmentList;
 
         //append in left menu the synoptic's custom button
         $("#tools_left").append(
@@ -1062,68 +1062,63 @@ function dialogSynopticObjectProperties() {
 
   /* Synoptic Object Properties Functions */
 
-  //creation of dynamic html to build the jsTree
-  function getJsTreeHTML() {
-    var synopticObjId = $("#elem_id").val();
-    var synopticObjTypeName = $("#" + synopticObjId).attr("type_name");
+function getJsTreeHTML() {
+  var synopticObjId = $("#elem_id").val();
+  var synopticObjTypeName = $("#" + synopticObjId).attr("type_name");
 
-    function renderNode(node) {
-      let html = "";
+  function renderNode(node) {
+    let html = "";
 
-      html += '<li ' +
-        'data-plantLevel="' + node.Level + '" ' +
-        'data-equipmentId="' + getEquipmentId(node, synopticObjTypeName) + '"';
+    html += '<li ' +
+      'data-plantLevel="' + node.Level + '" ' +
+      'data-equipmentId="' + getEquipmentId(node, synopticObjTypeName) + '"';
 
-      if (node.Codice) {
-        html += ' data-equipmentPath="' + node.Codice + '"';
+    if (node.Codice) html += ' data-equipmentPath="' + node.Codice + '"';
+    if (node.Table) html += ' data-description="' + node.Table + '"';
+
+    html += '>' + (node.Descrizione || node.DisplayName || "N/A");
+
+    if (node.Children && node.Children.length > 0) {
+      html += "<ul>";
+      for (let child of node.Children) {
+        html += renderNode(child);
       }
-
-      if (node.Table) {
-        html += ' data-description="' + node.Table + '"';
-      }
-
-      html += '>' + node.Descrizione;
-
-      if (node.Children && node.Children.length > 0) {
-        html += "<ul>";
-        $.each(node.Children, function(i, child) {
-          html += renderNode(child);
-        });
-        html += "</ul>";
-      }
-
-      html += "</li>";
-      return html;
+      html += "</ul>";
     }
 
-    function getEquipmentId(node, synopticObjTypeName) {
-      switch (node.Level) {
-        case 3:
-          return node.ObjectId + "x" + node.EquipmentId;
-        case 4:
-          if (synopticObjTypeName !== "StatusExtemporaryOP") {
-            return node.ObjectId + "x" + node.EquipmentId;
-          }
-          break;
-        case 5:
-          if (synopticObjTypeName === "StatusExtemporaryOP") {
-            return node.ParentId + "x" + node.ObjectId;
-          }
-          break;
-      }
-      return node.EquipmentId;
-    }
-
-    let html = '<div id="jstree"><ul>';
-
-    $.each(areaList, function(i, area) {
-      html += renderNode(area);
-    });
-
-    html += "</ul></div>";
-
+    html += "</li>";
     return html;
   }
+
+  function getEquipmentId(node, synopticObjTypeName) {
+    switch (node.Level) {
+      case 3:
+        return node.ObjectId + "x" + node.EquipmentId;
+      case 4:
+        if (synopticObjTypeName !== "StatusExtemporaryOP") {
+          return node.ObjectId + "x" + node.EquipmentId;
+        }
+        break;
+      case 5:
+        if (synopticObjTypeName === "StatusExtemporaryOP") {
+          return node.ParentId + "x" + node.ObjectId;
+        }
+        break;
+    }
+    return node.EquipmentId;
+  }
+
+  let html = '<div id="jstree"><ul>';
+
+  for (let area of areaList) {
+    html += renderNode(area);
+  }
+
+  html += "</ul></div>";
+
+  return html;
+}
+
 
   //dialog option to insert stations into editor
   function getStationOptionsHTML() {
